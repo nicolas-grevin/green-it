@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-read=. --watch --allow-net --allow-env main.ts",
+    "compile": "deno compile main.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v4.0.7/mod.ts",
+    "hono/middleware": "https://deno.land/x/hono@v4.0.7/middleware.ts",
+    "postgres": "https://deno.land/x/postgres@v0.19.2/mod.ts"
+  }
+}

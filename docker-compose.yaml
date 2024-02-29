@@ -1,6 +1,17 @@
 version: '3.9'
 
 services:
+  deno:
+    build:
+      context: ./codes/deno
+      target: dev
+    env_file:
+      - .env
+    ports:
+      - 8080:8000
+    volumes:
+      - ./codes/deno:/app
+
   go:
     build:
       context: ./codes/go

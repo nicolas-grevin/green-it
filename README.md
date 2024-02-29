@@ -6,7 +6,7 @@ this repository contains green it tests
 
 | **Language** 	| **Status**   	|
 |--------------	|--------------	|
-| deno         	| In Progress  	|
+| deno         	| Done        	|
 | go           	| Done         	|
 | java         	| Not Started  	|
 | javascript   	| Not Started  	|
