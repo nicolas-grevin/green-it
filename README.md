@@ -8,8 +8,8 @@ this repository contains green it tests
 |--------------	|--------------	|
 | deno         	| Done        	|
 | go           	| Done         	|
-| java         	| Not Started  	|
-| javascript   	| Not Started  	|
+| java         	| Done      	|
+| javascript   	| In Progress  	|
 | php          	| Not Started  	|
 | python       	| Not Started  	|
 | rust         	| Not Started  	|
