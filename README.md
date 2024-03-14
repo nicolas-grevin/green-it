@@ -9,8 +9,8 @@ this repository contains green it tests
 | deno         	| Done        	|
 | go           	| Done         	|
 | java         	| Done      	|
-| javascript   	| In Progress  	|
-| php          	| Not Started  	|
+| javascript   	| Done       	|
+| php          	| Done      	|
 | python       	| Not Started  	|
 | rust         	| Not Started  	|
 

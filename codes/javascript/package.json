@@ -1,0 +1,28 @@
+{
+  "name": "green-it",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/nicolas-grevin/green-it",
+  "author": "Nicolas Grévin <developer@nicolas-grevin.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "node .build.js",
+    "start:prod": "node app.mjs",
+    "start:dev": "node --watch src/app.js",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.1",
+    "express": "^4.18.3",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
