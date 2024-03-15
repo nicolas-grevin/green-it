@@ -1,0 +1,10 @@
+/.git/
+/tests/
+/sql/
+/var/
+/vendor
+/.dockerignore
+/.env*
+/.gitignore
+/docker-compose.yaml
+/Dockerfile
