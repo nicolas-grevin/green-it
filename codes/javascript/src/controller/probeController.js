@@ -23,9 +23,9 @@ const check = (_, res) => {
     postgresProbeServiceStatus.message = 'Service is down'
   }
 
-  probe.services.set('postgres', postgresProbeServiceStatus)
+  probe.services['postgres'] = postgresProbeServiceStatus
 
-  res.json(Object.fromEntries(probe.services))
+  res.json(probe)
 }
 
 router.get('/liveness', check)
